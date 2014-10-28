@@ -7,7 +7,7 @@
 #ifndef MBED_CMSIS_H
 #define MBED_CMSIS_H
 
-#include "em_device.h"
-#include "cmsis_nvic.h"
+#include "cmsis-core/em_device.h"
+#include "cmsis-core/cmsis_nvic.h"
 
 #endif

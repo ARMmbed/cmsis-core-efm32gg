@@ -261,8 +261,8 @@ typedef enum IRQn
 #define ANALOG_PRESENT
 #define ANALOG_COUNT        1
 
-#include "core_cm3.h"       /* Cortex-M3 processor and core peripherals */
-#include "system_efm32gg.h" /* System Header */
+#include "cmsis-core/core_cm3.h"       /* Cortex-M3 processor and core peripherals */
+#include "cmsis-core/system_efm32gg.h" /* System Header */
 
 /** @} End of group EFM32GG990F1024_Part */
 
@@ -272,47 +272,47 @@ typedef enum IRQn
  * @brief Device Specific Peripheral Register Structures
  *****************************************************************************/
 
-#include "efm32gg_dma_ch.h"
-#include "efm32gg_dma.h"
-#include "efm32gg_aes.h"
-#include "efm32gg_usb_hc.h"
-#include "efm32gg_usb_diep.h"
-#include "efm32gg_usb_doep.h"
-#include "efm32gg_usb.h"
-#include "efm32gg_msc.h"
-#include "efm32gg_emu.h"
-#include "efm32gg_rmu.h"
-#include "efm32gg_cmu.h"
-#include "efm32gg_lesense_st.h"
-#include "efm32gg_lesense_buf.h"
-#include "efm32gg_lesense_ch.h"
-#include "efm32gg_lesense.h"
-#include "efm32gg_rtc.h"
-#include "efm32gg_letimer.h"
-#include "efm32gg_ebi.h"
-#include "efm32gg_usart.h"
-#include "efm32gg_timer_cc.h"
-#include "efm32gg_timer.h"
-#include "efm32gg_acmp.h"
-#include "efm32gg_i2c.h"
-#include "efm32gg_gpio_p.h"
-#include "efm32gg_gpio.h"
-#include "efm32gg_vcmp.h"
-#include "efm32gg_prs_ch.h"
-#include "efm32gg_prs.h"
-#include "efm32gg_leuart.h"
-#include "efm32gg_pcnt.h"
-#include "efm32gg_adc.h"
-#include "efm32gg_dac.h"
-#include "efm32gg_lcd.h"
-#include "efm32gg_burtc_ret.h"
-#include "efm32gg_burtc.h"
-#include "efm32gg_wdog.h"
-#include "efm32gg_etm.h"
-#include "efm32gg_dma_descriptor.h"
-#include "efm32gg_devinfo.h"
-#include "efm32gg_romtable.h"
-#include "efm32gg_calibrate.h"
+#include "cmsis-core/efm32gg_dma_ch.h"
+#include "cmsis-core/efm32gg_dma.h"
+#include "cmsis-core/efm32gg_aes.h"
+#include "cmsis-core/efm32gg_usb_hc.h"
+#include "cmsis-core/efm32gg_usb_diep.h"
+#include "cmsis-core/efm32gg_usb_doep.h"
+#include "cmsis-core/efm32gg_usb.h"
+#include "cmsis-core/efm32gg_msc.h"
+#include "cmsis-core/efm32gg_emu.h"
+#include "cmsis-core/efm32gg_rmu.h"
+#include "cmsis-core/efm32gg_cmu.h"
+#include "cmsis-core/efm32gg_lesense_st.h"
+#include "cmsis-core/efm32gg_lesense_buf.h"
+#include "cmsis-core/efm32gg_lesense_ch.h"
+#include "cmsis-core/efm32gg_lesense.h"
+#include "cmsis-core/efm32gg_rtc.h"
+#include "cmsis-core/efm32gg_letimer.h"
+#include "cmsis-core/efm32gg_ebi.h"
+#include "cmsis-core/efm32gg_usart.h"
+#include "cmsis-core/efm32gg_timer_cc.h"
+#include "cmsis-core/efm32gg_timer.h"
+#include "cmsis-core/efm32gg_acmp.h"
+#include "cmsis-core/efm32gg_i2c.h"
+#include "cmsis-core/efm32gg_gpio_p.h"
+#include "cmsis-core/efm32gg_gpio.h"
+#include "cmsis-core/efm32gg_vcmp.h"
+#include "cmsis-core/efm32gg_prs_ch.h"
+#include "cmsis-core/efm32gg_prs.h"
+#include "cmsis-core/efm32gg_leuart.h"
+#include "cmsis-core/efm32gg_pcnt.h"
+#include "cmsis-core/efm32gg_adc.h"
+#include "cmsis-core/efm32gg_dac.h"
+#include "cmsis-core/efm32gg_lcd.h"
+#include "cmsis-core/efm32gg_burtc_ret.h"
+#include "cmsis-core/efm32gg_burtc.h"
+#include "cmsis-core/efm32gg_wdog.h"
+#include "cmsis-core/efm32gg_etm.h"
+#include "cmsis-core/efm32gg_dma_descriptor.h"
+#include "cmsis-core/efm32gg_devinfo.h"
+#include "cmsis-core/efm32gg_romtable.h"
+#include "cmsis-core/efm32gg_calibrate.h"
 
 /** @} End of group EFM32GG990F1024_Peripheral_TypeDefs */
 
@@ -421,10 +421,10 @@ typedef enum IRQn
  * @{
  *****************************************************************************/
 
-#include "efm32gg_prs_signals.h"
-#include "efm32gg_dmareq.h"
-#include "efm32gg_dmactrl.h"
-#include "efm32gg_uart.h"
+#include "cmsis-core/efm32gg_prs_signals.h"
+#include "cmsis-core/efm32gg_dmareq.h"
+#include "cmsis-core/efm32gg_dmactrl.h"
+#include "cmsis-core/efm32gg_uart.h"
 
 /**************************************************************************//**
  * @defgroup EFM32GG990F1024_UNLOCK EFM32GG990F1024 Unlock Codes
@@ -446,8 +446,8 @@ typedef enum IRQn
  * @{
  *****************************************************************************/
 
-#include "efm32gg_af_ports.h"
-#include "efm32gg_af_pins.h"
+#include "cmsis-core/efm32gg_af_ports.h"
+#include "cmsis-core/efm32gg_af_pins.h"
 
 /** @} End of group EFM32GG990F1024_Alternate_Function */
 
