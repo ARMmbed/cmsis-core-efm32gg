@@ -1,0 +1,17 @@
+{
+  "name": "cmsis-core-efm32gg",
+  "version": "0.0.0",
+  "description": "CMSIS Core Implementation for EFM32GG",
+  "keywords": [
+    "cmsis"
+  ],
+  "author": "Bogdan Marinescu <bogdan.marinescu@arm.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/cmsis-core-efm32gg.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/cmsis-core-efm32gg",
+  "license": "Apache-2",
+  "dependencies": {},
+  "targetDependencies": {}
+}
