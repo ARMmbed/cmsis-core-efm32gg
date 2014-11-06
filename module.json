@@ -12,6 +12,10 @@
   },
   "homepage": "https://github.com/ARMmbed/cmsis-core-efm32gg",
   "license": "Apache-2",
-  "dependencies": {},
+  "extraIncludes": ["cmsis-core"],  
+  "dependencies": {
+      "cmsis-core": "*",
+            "libc": "*"
+  },
   "targetDependencies": {}
 }
