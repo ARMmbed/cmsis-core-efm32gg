@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-efm32gg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CMSIS Core Implementation for EFM32GG",
   "keywords": [
     "cmsis"
@@ -12,10 +12,12 @@
   },
   "homepage": "https://github.com/ARMmbed/cmsis-core-efm32gg",
   "license": "Apache-2",
-  "extraIncludes": ["cmsis-core"],  
+  "extraIncludes": [
+    "cmsis-core"
+  ],
   "dependencies": {
-      "cmsis-core": "*",
-            "libc": "*"
+    "cmsis-core": "*",
+    "libc": "*"
   },
   "targetDependencies": {}
 }
