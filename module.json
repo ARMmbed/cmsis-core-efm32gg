@@ -16,8 +16,7 @@
     "cmsis-core"
   ],
   "dependencies": {
-    "cmsis-core": "*",
-    "libc": "*"
+    "cmsis-core": "*"
   },
   "targetDependencies": {}
 }
