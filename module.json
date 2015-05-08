@@ -5,7 +5,7 @@
   "keywords": [
     "cmsis"
   ],
-  "author": "Bogdan Marinescu <bogdan.marinescu@arm.com>",
+  "author": "Marcus Chang <marcus.chang@arm.com>",
   "repository": {
     "url": "git@github.com:ARMmbed/cmsis-core-efm32gg.git",
     "type": "git"
@@ -16,7 +16,7 @@
     "cmsis-core"
   ],
   "dependencies": {
-    "cmsis-core": "*"
+    "cmsis-core": "ARMmbed/cmsis-core#~0.1.0"
   },
   "targetDependencies": {}
 }
