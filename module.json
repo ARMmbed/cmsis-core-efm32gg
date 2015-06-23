@@ -16,7 +16,7 @@
     "cmsis-core"
   ],
   "dependencies": {
-    "cmsis-core": "ARMmbed/cmsis-core#~0.1.0"
+    "cmsis-core": "ARMmbed/cmsis-core#~0.2.0"
   },
   "targetDependencies": {}
 }
