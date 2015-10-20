@@ -31,6 +31,8 @@
 #ifndef __EM_MBED_H
 #define __EM_MBED_H
 
+#if defined(MBED_HAL_VIRTUAL_NVIC)
+
 #define NVIC_ClearPendingIRQ(irqn)       vIRQ_ClearPendingIRQ((uint32_t) (irqn))
 #define NVIC_SetPendingIRQ(irqn)         vIRQ_SetPendingIRQ((uint32_t) (irqn))
 #define NVIC_GetPendingIRQ(irqn)         vIRQ_GetPendingIRQ((uint32_t) (irqn))
@@ -42,3 +44,5 @@
 #define NVIC_DisableIRQ(irqn)            vIRQ_DisableIRQ((uint32_t) (irqn))
 
 #endif
+
+#endif /* __EM_MBED_H */
