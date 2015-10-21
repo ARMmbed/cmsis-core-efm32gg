@@ -5,7 +5,7 @@
   "keywords": [
     "cmsis"
   ],
-  "author": "Marcus Chang <marcus.chang@arm.com>",
+  "author": "Aksel Skauge Mellbye <aksel.mellbye@silabs.com",
   "repository": {
     "url": "git@github.com:ARMmbed/cmsis-core-efm32gg.git",
     "type": "git"
