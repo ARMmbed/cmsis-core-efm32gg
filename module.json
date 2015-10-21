@@ -16,7 +16,7 @@
     "cmsis-core"
   ],
   "dependencies": {
-    "cmsis-core": "~0.4.0"
+    "cmsis-core": "*"
   },
   "targetDependencies": {}
 }

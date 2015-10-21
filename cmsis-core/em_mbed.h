@@ -31,14 +31,14 @@
 #ifndef __EM_MBED_H
 #define __EM_MBED_H
 
-#if defined(MBED_HAL_VIRTUAL_NVIC)
+#if YOTTA_CFG_UVISOR_PRESENT && !defined(UVISOR_NO_HOOKS)
 
 #define NVIC_ClearPendingIRQ(irqn)       vIRQ_ClearPendingIRQ((uint32_t) (irqn))
 #define NVIC_SetPendingIRQ(irqn)         vIRQ_SetPendingIRQ((uint32_t) (irqn))
 #define NVIC_GetPendingIRQ(irqn)         vIRQ_GetPendingIRQ((uint32_t) (irqn))
 #define NVIC_SetPriority(irqn, priority) vIRQ_SetPriority((uint32_t) (irqn), (uint32_t) (priority))
 #define NVIC_GetPriority(irqn)           vIRQ_GetPriority((uint32_t) (irqn))
-//#define NVIC_SetVector(irqn, vector)     vIRQ_GetVector((uint32_t) (irqn), (uint32_t) (vector))
+//#define NVIC_SetVector(irqn, vector)     vIRQ_SetVector((uint32_t) (irqn), (uint32_t) (vector))
 //#define NVIC_GetVector(irqn)             vIRQ_GetVector((uint32_t) (irqn))
 #define NVIC_EnableIRQ(irqn)             vIRQ_EnableIRQ((uint32_t) (irqn))
 #define NVIC_DisableIRQ(irqn)            vIRQ_DisableIRQ((uint32_t) (irqn))
